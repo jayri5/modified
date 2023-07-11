@@ -435,8 +435,9 @@ p:first-of-type {
   z-index: 1;
 }
 
+
 .company-info:hover::after {
-  content: "assets/img/god.jpg";
+  content: "Unlock Your Potential. Learn Anywhere, Anytime.";
   position: absolute;
   top: 50%;
   left: 5%;
@@ -445,7 +446,14 @@ p:first-of-type {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 10%;
-  animation: backgroundAnimation 5s infinite;
+  animation: backgroundAnimation 10s infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: magenta;
+  font-weight: bold;
+  font-family: "RaleWay"
 }
 
 .image-box {
@@ -472,11 +480,11 @@ p:first-of-type {
 .image img {
   width: 100%;
   height: auto;
-  transition: transform 0.3s ease;
+  transition: transform 0.8s ease;
 }
 
 .image img:hover {
-  transform: scale(1.1);
+  transform: scale(2.1);
 }
 
 @keyframes backgroundAnimation {
