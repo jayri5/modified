@@ -18,12 +18,12 @@
   --lig: 72%;
   --second-hue: 219;
    
-  --first-color: blue;
+  --first-color: magenta;
   /*--first-color: hsl(253, 76%, 43%);*/
   --first-color-alt: white;
   --title-color: hsl(var(--second-hue), 15%, 95%);
   /*--title-color: hsl(var(--second-hue), 15%, 95%);*/
-  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --text-color: black;
   /*--text-color: black;*/
   /*--text-color-light: hsl(var(--second-hue), 4%, 55%);*/
   /*--text-color: hsl(59, 88%, 55%);*/
