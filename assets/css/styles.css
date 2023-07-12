@@ -20,8 +20,8 @@
    
   --first-color: magenta;
   /*--first-color: hsl(253, 76%, 43%);*/
-  --first-color-alt: white;
-  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --first-color-alt: black;
+  --title-color: black;
   /*--title-color: hsl(var(--second-hue), 15%, 95%);*/
   --text-color: black;
   /*--text-color: black;*/
@@ -429,6 +429,7 @@ p:first-of-type {
 }
 
 .company-info {
+  text-color: black;
   padding-left: 150px;
   flex: 1;
   position: relative;
@@ -436,6 +437,7 @@ p:first-of-type {
 }
 
 .company-name {
+  text-color: black;
   padding-left: 2px;
   position: relative;
   z-index: 1;
