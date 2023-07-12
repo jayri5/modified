@@ -18,16 +18,16 @@
   --lig: 72%;
   --second-hue: 219;
    
-  --first-color: white;
+  --first-color: blue;
   /*--first-color: hsl(253, 76%, 43%);*/
-  --first-color-alt: hsl(var(--first-hue), var(--sat), 68%); /* -4% */
+  --first-color-alt: white;
   --title-color: hsl(var(--second-hue), 15%, 95%);
   /*--title-color: hsl(var(--second-hue), 15%, 95%);*/
   --text-color: hsl(var(--second-hue), 8%, 75%);
   /*--text-color: black;*/
   /*--text-color-light: hsl(var(--second-hue), 4%, 55%);*/
   /*--text-color: hsl(59, 88%, 55%);*/
-  --body-color: hsl(var(--second-hue), 48%, 8%);
+  --body-color: white;
   /*--body-color: hsl(0, 100%, 99%);*/
   --container-color: hsl(var(--second-hue), 32%, 12%);
 
