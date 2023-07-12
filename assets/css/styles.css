@@ -396,7 +396,6 @@ p:first-of-type {
 .dropdown {
   display: none;
   position: absolute;
-  background-color: #6242ad;
   padding: 1px;
   width: 100%;
   left: 0;
