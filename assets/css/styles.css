@@ -18,20 +18,14 @@
   --lig: 72%;
   --second-hue: 219;
    
-  --first-color: magenta;
-  /*--first-color: hsl(253, 76%, 43%);*/
-  --first-color-alt: black;
-  --title-color: black;
-  /*--title-color: hsl(var(--second-hue), 15%, 95%);*/
-  --text-color: black;
-  /*--text-color: black;*/
-  /*--text-color-light: hsl(var(--second-hue), 4%, 55%);*/
-  /*--text-color: hsl(59, 88%, 55%);*/
-  --body-color: blue;
-  /*--body-color: hsl(0, 100%, 99%);*/
+  --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--first-hue), var(--sat), 68%); /* -4% */
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --text-color-light: hsl(var(--second-hue), 4%, 55%);
+  --body-color: white;
   --container-color: hsl(var(--second-hue), 32%, 12%);
 
-  
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: 'Poppins', sans-serif;
@@ -254,6 +248,7 @@ img {
 
 .card::after {
   content: "Project Closure";
+  color: black;
   position: absolute;
   left: -45%;
   top: 110%;
@@ -290,6 +285,7 @@ img {
 
 .card.content::after {
   content: "Requirement Gathering";
+  color: black;
   left: -50%;
 
   @media (max-width: 540px) {
@@ -305,6 +301,7 @@ img {
 
 .card.padding::after {
   content: "Planning and Design";
+  color: black;
 }
 
 .card.padding::before {
@@ -323,6 +320,7 @@ img {
 
 .card.border::after {
   content: "Development and Testing";
+  color: black;
 }
 
 .card.border::before {
@@ -340,6 +338,7 @@ img {
 
 .card.background::after {
   content: "User Training and Acceptance";
+  color: black;
 }
 
 .card.box-shadow {
@@ -429,7 +428,6 @@ p:first-of-type {
 }
 
 .company-info {
-  text-color: black;
   padding-left: 150px;
   flex: 1;
   position: relative;
@@ -437,10 +435,10 @@ p:first-of-type {
 }
 
 .company-name {
-  text-color: black;
   padding-left: 2px;
   position: relative;
   z-index: 1;
+  color: black;
 }
 
 
@@ -465,7 +463,6 @@ p:first-of-type {
 }
 
 .image-box {
-  background-color: black;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
@@ -596,7 +593,7 @@ p:first-of-type {
 
 .home__greeting{
   display: block;
-  color: var(--title-color);
+  color: black;
   margin-bottom: .25rem;
 }
 
