@@ -201,7 +201,7 @@ img {
 .stack .card.box-shadow {
   transition-delay: .4s;
   box-shadow:
-    0 -1px 25px rgba(0, 0, 0, 0.4),
+    0 -1px 25px rgba(240, 236, 236, 0.4),
     0 7.6px 6.1px rgba(0, 0, 0, 0.051),
     0 14.3px 11.5px rgba(0, 0, 0, 0.059),
     0 25.5px 20.5px rgba(0, 0, 0, 0.07),
