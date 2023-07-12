@@ -465,6 +465,7 @@ p:first-of-type {
 }
 
 .image-box {
+  background-color: black;
   flex: 1;
   display: flex;
   flex-wrap: wrap;
