@@ -124,11 +124,54 @@ img {
 
 
 /*=============== REUSABLE CSS CLASSES ===============*/
-.carousel-container {
+.image-container {
+  flex: 0 0 auto; /* To prevent the image from growing or shrinking */
+  margin-right: 20px; /* Adjust the desired space between the image and text */
+}
+
+.image-container img {
+  width: 100px; /* Adjust the image size as needed */
+  height: auto;
+}
+
+.text-container {
+  font-weight: bold;
+  color: rgb(133, 28, 133);
+}
+
+
+.upperlogo{
+  height: 80px;
+  width: 80px;
+}
+
+h1 {
   position: absolute;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
+  font-size: 50px;
+  
+}
+
+.dynamic-text {
+  display: inline-block;
+  animation: changeText 6s infinite;
+}
+
+@keyframes changeText {
+  0%, 100% { opacity: 0; }
+  16.666% { opacity: 1; }
+  33.333% { opacity: 0; }
+  50% { opacity: 1; }
+  66.666% { opacity: 0; }
+  83.333% { opacity: 1; }
+}
+
+
+
+
+.carousel-container {
+  position: relative;
+  width: 70%;
+  width: 1400px;
   padding-top: 30px;
 }
 
@@ -147,7 +190,7 @@ img {
 .carousel-caption {
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 5%;
   transform: translate(-50%, -50%);
   color: #fff;
   white-space: nowrap;
@@ -155,8 +198,8 @@ img {
 
 .carousel-description {
   position: absolute;
-  top: 65%;
-  left: 55%;
+  top: 75%;
+  left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   white-space: nowrap;
