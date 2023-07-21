@@ -6,6 +6,22 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
+
+const dynamicTexts = ["development", "animation", "marketing"];
+let currentIndex = 0;
+
+function changeDynamicText() {
+  const dynamicTextElement = document.getElementById('dynamic-text');
+  dynamicTextElement.textContent = dynamicTexts[currentIndex] + ' ';
+  currentIndex = (currentIndex + 1) % dynamicTexts.length;
+}
+
+setInterval(changeDynamicText, 2000);
+
+
+
+
+
 let slideIndex = 0;
 showSlide(slideIndex);
 
